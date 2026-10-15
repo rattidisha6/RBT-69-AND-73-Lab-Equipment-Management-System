@@ -1,24 +1,18 @@
 {
-  "name": "hospital-management-system",
+  "name": "labequipmentmanagementsystem",
   "version": "1.0.0",
-  "description": "Hospital Management System - DBMS College Project demonstrating MySQL 8 features",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "node test-buttons.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "dbms",
-    "mysql8",
-    "hospital-management",
-    "stored-procedures",
-    "triggers",
-    "cursor"
-  ],
-  "author": "Aarish",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
-    "express": "^4.19.2",
-    "mysql2": "^3.9.7"
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "mongodb": "^7.7.0"
   }
 }
